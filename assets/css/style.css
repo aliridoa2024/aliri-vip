@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #42d1d5;
+  color: #ffff79;
   text-decoration: none;
 }
 
@@ -919,7 +919,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: transparent
   background-size: cover;
   padding: 120px 0;
 }
@@ -1311,7 +1311,7 @@ section {
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #42d1d5;
+  border: 0px solid #ffffff;
 }
 
 .pricing .buy-btn:hover {
@@ -1325,11 +1325,13 @@ section {
 
 .pricing .featured .buy-btn {
   background: #83ffdc;
-  color: #103110;
+  color: #000000;
 }
 
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background: #ffff94;
+  color: #000000;
+
 }
 
 @media (max-width: 992px) {
@@ -1764,7 +1766,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Jost", sans-serif;
-  color: #83ffdc;
+  color: #ffff79;
 }
 
 #footer .footer-top h4 {
@@ -1787,7 +1789,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #42d1d5;
+  color: #4dd1dc;
   font-size: 18px;
   line-height: 1;
 }
@@ -1817,7 +1819,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #42d1d5;
+  background: #ffff79;
   color: #330852;
   line-height: 1;
   padding: 8px 0;
